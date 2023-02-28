@@ -548,6 +548,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &544164318 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6064744542877794441, guid: dbff8af00d4f44d769874e38e04daac6, type: 3}
+  m_PrefabInstance: {fileID: 2048313667}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d370140760df433caea6872649b6efba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &550853440 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6064744542877794441, guid: dbff8af00d4f44d769874e38e04daac6, type: 3}
+  m_PrefabInstance: {fileID: 1205047074}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d370140760df433caea6872649b6efba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &919885357 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6064744542877794441, guid: dbff8af00d4f44d769874e38e04daac6, type: 3}
+  m_PrefabInstance: {fileID: 990683924}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d370140760df433caea6872649b6efba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &990683924
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -798,6 +831,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4733685933431145452, guid: dbff8af00d4f44d769874e38e04daac6, type: 3}
   m_PrefabInstance: {fileID: 990683924}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1171061108 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6064744542877794441, guid: dbff8af00d4f44d769874e38e04daac6, type: 3}
+  m_PrefabInstance: {fileID: 4733685934282848627}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d370140760df433caea6872649b6efba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1205047074
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1094,6 +1138,7 @@ GameObject:
   - component: {fileID: 1950265942}
   - component: {fileID: 1950265944}
   - component: {fileID: 1950265945}
+  - component: {fileID: 1950265946}
   m_Layer: 5
   m_Name: Board
   m_TagString: Untagged
@@ -1203,6 +1248,35 @@ MonoBehaviour:
   m_ChildScaleWidth: 1
   m_ChildScaleHeight: 1
   m_ReverseArrangement: 0
+--- !u!114 &1950265946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950265940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 294f153cfb4d4610b94ddf8f977d6514, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rows:
+  - {fileID: 1171061108}
+  - {fileID: 550853440}
+  - {fileID: 544164318}
+  - {fileID: 1965160886}
+  - {fileID: 919885357}
+--- !u!114 &1965160886 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6064744542877794441, guid: dbff8af00d4f44d769874e38e04daac6, type: 3}
+  m_PrefabInstance: {fileID: 121415903}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d370140760df433caea6872649b6efba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2048313667
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1661,6 +1735,14 @@ PrefabInstance:
     - target: {fileID: 4733685933431145453, guid: dbff8af00d4f44d769874e38e04daac6, type: 3}
       propertyPath: m_Name
       value: Row_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4733685933557999668, guid: dbff8af00d4f44d769874e38e04daac6, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4733685933866264877, guid: dbff8af00d4f44d769874e38e04daac6, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4733685933866264878, guid: dbff8af00d4f44d769874e38e04daac6, type: 3}
       propertyPath: m_RootOrder
