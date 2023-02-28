@@ -1,0 +1,8 @@
+Classes/
+Libraries/
+Data/
+LaunchScreen-*
+
+Unity-iPhone/Images.xcassets/
+Unity-iPhone.xcodeproj/project.xcworkspace/xcuserdata/
+UnityFramework/
