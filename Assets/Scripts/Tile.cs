@@ -18,7 +18,7 @@ public sealed class Tile : MonoBehaviour
         set
         {
             if (_item == value) return;
-            
+
             _item = value;
             icon.sprite = _item.sprite;
         }
@@ -28,15 +28,16 @@ public sealed class Tile : MonoBehaviour
     public Image icon;
 
     public Button button;
+
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        button.onClick.AddListener(() => Board.Instance.Select(this));
     }
 
     // Update is called once per frame
     void Update()
     {
-        
     }
 }
